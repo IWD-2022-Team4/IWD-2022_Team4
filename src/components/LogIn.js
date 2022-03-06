@@ -174,7 +174,7 @@ export default function LogIn (props) {
         e.preventDefault();
 
         axios
-        .post('https://anywhere-fitness-tt-webpt-88.herokuapp.com/users/login', formState)
+        .post('https://iwd-2022-team4.herokuapp.com/api/IWD_Homes/users/login', formState)
         .then((response)=> {
             getUser(response.data);
             localStorage.setItem('token', response.data.token)
