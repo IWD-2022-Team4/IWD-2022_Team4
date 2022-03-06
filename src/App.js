@@ -52,7 +52,7 @@ function App() {
         <Route path='/signup' render={()=> <SignUp />}/>
         <Route path='/login' render={()=> <LogIn currentUser={currentUser} getUser={getUser}/>}/>
         <Route path='/sampleservices' component={SampleServices} />
-        <Route exact path='/'><RegistrationForm /></Route>
+        <Route exact path='/form'><RegistrationForm /></Route>
         <Route exact path='/hosts'><HostList /></Route>
         {/* <Route exact path='/users'><UserList /></Route> */}
         <Route exact path='/'><HostCard /></Route>
