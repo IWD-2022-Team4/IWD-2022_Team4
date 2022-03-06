@@ -103,7 +103,7 @@ export default function SampleServices() {
     const history = useHistory();
     // Set up axios get request to get classlist object from server
     useEffect(()=> {
-        axios.get('https://anywhere-fitness-tt-webpt-88.herokuapp.com/')
+        axios.get('https://iwd-2022-team4.herokuapp.com/api/IWD_Homes/hosts/')
         .then(response => setServices(response.data))
         .catch(err => console.log(err))
     }, [])

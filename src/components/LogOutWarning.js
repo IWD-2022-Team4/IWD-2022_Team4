@@ -27,7 +27,7 @@ export default function LogOutWarning(props) {
   const handleLogOut = () => {
       setOpen(false);
       localStorage.removeItem('token');
-      window.location.href = 'https://anywhere-fitness-tt88.netlify.app/';;
+      window.location.href = 'https://iwd-2022-team4.herokuapp.com/api/IWD_Homes/';;
   };
 
   const textStyles = {
