@@ -118,7 +118,7 @@ export default function Header(props){
                     <NavLinkItem to='/login'>Log In</NavLinkItem>
                     <NavLinkItem to='/sampleservices'>Services</NavLinkItem>
                     <NavLinkItem to='/connecting'>Connect</NavLinkItem>
-                    <NavLinkItem to='/registration'>RegistrationForm</NavLinkItem>
+                    <NavLinkItem to='/form'>RegistrationForm</NavLinkItem>
                     <NavLinkItem to='/hostList'>HostList</NavLinkItem>
                     <NavLinkItem to='/hostCard'>HostCard</NavLinkItem>
                     <NavLinkItem to='/savedList'>SavedList</NavLinkItem>
